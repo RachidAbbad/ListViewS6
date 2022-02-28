@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20px"
+    android:background="@color/purple_200"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/matriculeDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Matricule"/>
+
+        <EditText
+            android:id="@+id/nameDialog"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:hint="Nom Pilote"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10px"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add_dialog"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5px"
+            android:text="Modifier"/>
+
+        <Button
+            android:id="@+id/btn_delete_dialog"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5px"
+            android:text="Annuler"/>
+    </LinearLayout>
+
+</LinearLayout>
