@@ -21,8 +21,8 @@ import java.util.List;
 
 public class CustomDialog extends Dialog {
 
-    EditText matricule,name;
-    Button btn_edit,btn_cancel;
+    EditText matricule, name;
+    Button btn_edit, btn_cancel;
     List<Pilote> list;
     int pos;
 
